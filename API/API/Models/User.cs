@@ -1,16 +1,13 @@
-using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
-using System.Transactions;
-
 namespace API.Models
 {
     public class User
     {
         [Key]
-        private int Id { get; set; }
-        private string FullName { get; set; } = String.Empty;
-        private string? UserName { get; set; }
-        private string? Password { get; set; }
-        private int Role { get; set; }
+        public int Id { get; set; }
+        public string FullName { get; set; } = String.Empty;
+        public string UserName { get; set; } = String.Empty;
+        public string Password { get; set; } = String.Empty;
+        public int Role { get; set; }
+        public ICollection<User>? Users { get; set; }
     }
 }

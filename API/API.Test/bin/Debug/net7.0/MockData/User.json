@@ -1,0 +1,9 @@
+[
+  {
+    "Id": 1,
+    "UserName": "TEST",
+    "Password": "TEST",
+    "FullName": "Lennert van Splunder",
+    "Role": 1
+  }
+]
