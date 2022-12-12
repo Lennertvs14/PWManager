@@ -1,5 +1,6 @@
 global using API.Controllers;
 global using API.Data;
+global using API.Repositories;
 global using API.Models;
 global using Microsoft.AspNetCore.Mvc;
 global using Microsoft.EntityFrameworkCore;
