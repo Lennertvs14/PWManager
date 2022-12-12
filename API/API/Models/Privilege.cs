@@ -8,5 +8,10 @@
         public string? Description { get; set; }
         public int Role { get; set; }
         public ICollection<Privilege>? Privileges { get; set; }
+
+        public Privilege Get(object obj)
+        {
+            return (Privilege)obj;
+        }
     }
 }
