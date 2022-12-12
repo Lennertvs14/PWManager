@@ -1,4 +1,6 @@
-{
-  "Id": 1,
-  "Code" : "ADMIN"
-}
+[
+  {
+    "Id": 1,
+    "Code": "ADMIN"
+  }
+]

@@ -1,6 +1,8 @@
-{
-  "Id": 1,
-  "Code": "USER_SEARCH",
-  "Description": "Search for users",
-  "Role" :  1
-}
+[
+  {
+    "Id": 1,
+    "Code": "USER_SEARCH",
+    "Description": "Search for users",
+    "Role": 1
+  }
+]
